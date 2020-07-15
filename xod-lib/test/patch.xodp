@@ -1,0 +1,67 @@
+{
+  "links": [
+    {
+      "id": "B1qIYIzpU",
+      "input": {
+        "nodeId": "rymStIzaL",
+        "pinKey": "ByXhkbqFz8"
+      },
+      "output": {
+        "nodeId": "SknSxIMT8",
+        "pinKey": "H1wRGzm-U"
+      }
+    },
+    {
+      "id": "Syr4_h31v",
+      "input": {
+        "nodeId": "S1G4Ohhkv",
+        "pinKey": "HJ-YIp4-pL"
+      },
+      "output": {
+        "nodeId": "rymStIzaL",
+        "pinKey": "Bklhkb9KfU"
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "id": "S1G4Ohhkv",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 2
+      },
+      "type": "@/sh1107-128x128-i2c"
+    },
+    {
+      "boundLiterals": {
+        "SJCd0mhbU": "128",
+        "SJs_CQ3ZU": "0",
+        "Skx0dA7nWI": "64",
+        "rJp_R73Z8": "0"
+      },
+      "id": "SknSxIMT8",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 0
+      },
+      "type": "xod/graphics/canvas"
+    },
+    {
+      "boundLiterals": {
+        "By9QmbJ78": "\"Biomaker\"",
+        "Byg9Q7WJ7U": "2",
+        "H1b9mmW1mL": "2",
+        "Skz5QQWJQU": "2"
+      },
+      "id": "rymStIzaL",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 1
+      },
+      "type": "xod/graphics/text"
+    }
+  ]
+}
